@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-image: url(https://stergioshariop.github.io/Weather_App/main-background.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+#content{
+    height: 100vh;
+}
+.searh-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    padding-top:30vh;
+    gap:20px;
+}
+.searh-cont input{
+    width: 120px;
+    height: 30px;
+    background-image: url(https://i.pinimg.com/originals/19/65/ab/1965ab7ef7de87fe748b3c66efbfc73a.jpg);
+    border-radius: 5px;
+    text-align: center;
+    
+
+}
+
+.searh-cont p{
+    font-size: 25px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+
+}
+.searh-cont h1{
+    font-size: 40px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+
+}
+.feel{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.degree{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
